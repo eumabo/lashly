@@ -1,0 +1,7 @@
+LASHLY — correção da barra mobile
+
+- Barra inferior agora desliza horizontalmente com o dedo.
+- Itens disponíveis: Início, Agenda, Clientes, Financeiro, Materiais, Serviços, Relatórios e Ajustes.
+- Botão + permanece fixo no centro.
+- Regras de scroll foram aplicadas ao menu MOBILE (antes estavam no menu desktop/tablet).
+- Em desenvolvimento local, service workers antigos são removidos para evitar Safari exibindo uma versão em cache.

@@ -1,0 +1,23 @@
+LASHLY — COMEÇAR AQUI
+
+1) npm install
+2) npm run dev
+3) Abra http://localhost:5173
+
+SEM .env: abre em modo demonstração.
+COM .env do Supabase: abre com login e banco real.
+
+BANCO NOVO:
+- execute supabase/schema.sql
+
+SE O BANCO JÁ EXISTE:
+- execute supabase/migration_lashly_profile.sql se ainda não executou
+- execute supabase/migration_lashly_media.sql uma vez
+- mantenha a migration de notificações já aplicada
+
+LOGO PADRÃO:
+- public/lashly-default-logo.png
+- public/lashly-default-icon.png
+
+Em Configurações, a pessoa pode mudar nome, foto de perfil e ícone do app.
+No iPhone, para trocar o ícone já instalado, remova o atalho antigo e adicione novamente pela Tela de Início.
